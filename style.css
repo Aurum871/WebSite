@@ -16,9 +16,9 @@ header{
 }
  .banner-button {
     background-image: url('image/banner.png');
-    background-size:cover;
+    /*background-size:cover;
     position: relative;
-    display: block;
+    display: block;*/
 }
 .banner-button img {
     max-width: 100%;
