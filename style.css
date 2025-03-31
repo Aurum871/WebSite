@@ -15,10 +15,9 @@ header{
     height: 50px;
 }
  .banner-button {
-    background-image: url('image/banner.png');
-    /*background-size:cover;
+    background-size:cover;
     position: relative;
-    display: block;*/
+    display: block;
 }
 .banner-button img {
     max-width: 100%;
@@ -71,4 +70,35 @@ header{
   }
   .logo {
     margin-left: 50px;
+  }
+  .about_me {
+    background-image: url('file:///C:/Users/sashk/Desktop/Kisa_site/image/backgroud_main.png');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-left: none; 
+    margin-right: none;  
+  }
+  .title {
+    font-family: 'Sofia Sans';
+    font-size: 40px;
+    color: #040B13;
+    text-align: center;
+    margin-top: 120px;
+  }
+  .text_main {
+    font-family: 'Glory',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 100 1fr;
+    border: 2px solid rgb(80, 145, 27)
+  }
+  .ph_kisa {
+    max-width: 400px;
+    height: auto; 
+    margin-left: none; 
+    margin-right: none;
   }
