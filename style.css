@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Glory');
 body {
     background-color: #7C929F;
@@ -13,7 +13,7 @@ header{
     height: 50px;
 }
  .banner-button {
-    background-image: url('/image/banner.png');
+    background-image: url('https://github.com/Aurum871/WebSite/blob/211d0e3519014a746ed46d9a48cc3a6edb4db47b/image/banner.png');
     background-size:cover;
     position: relative;
     width: 100%;
@@ -28,13 +28,15 @@ header{
 .banner-button .button {
     appearance: none;
     font-family: 'Sofia Sans';
-    font-size: 18;
+    font-style: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
     text-decoration: none;
     position: absolute;
     top: 50%;
     right: 30%;
-    min-width: 300px;
-    padding: 20px 70px;
+    min-width: 400px;
+    padding: 20px 60px;
     background-color: #27060C;
     color: #FFF3F5;
     border-radius: 30px;
@@ -53,13 +55,14 @@ header{
     justify-content: flex-end;
     font-size: 16px;
     line-height: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Glory',Arial, Helvetica, sans-serif;
     margin-right: 50px;
   }
   .menu li {
     margin-right: 20px;
   }
-    .menu li:last-child {
+  
+  .menu li:last-child {
     margin-right: 0;
   }
     .menu a {
