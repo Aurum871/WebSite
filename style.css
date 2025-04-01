@@ -71,7 +71,7 @@ header{
   .logo {
     margin-left: 50px;
   }
-  /*.about_me {
+  .about_me {
     background-image: url('file:///C:/Users/sashk/Desktop/Kisa_site/image/backgroud_main.png');
     background-size: cover;
     width: 100%;
@@ -101,4 +101,4 @@ header{
     height: auto; 
     margin-left: none; 
     margin-right: none;
-  }*/
+  }
